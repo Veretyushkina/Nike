@@ -1,0 +1,155 @@
+body {
+    height:100vh;
+    background: linear-gradient(135deg, #000 0%, #33114B 100%) no-repeat;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.42;
+    font-family: 'Montserrat', sans-serif;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+    color: inherit;
+}
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.header {
+    height: 120px;
+    position: relative;
+    margin-bottom: 150px;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+
+.logo__img {
+    width: 112px;
+    height: 58px;
+}
+
+.menu {
+    position: absolute;
+    top: 70px;
+    left: 300px;
+}
+
+.menu__item {
+    margin-right: 55px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu__link:hover {
+    color: #74C5DE;
+    text-decoration:underline;
+}
+
+img {
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+  }
+
+
+.hero__content::after {
+    content: '';
+    background-image: url(./nike\ collection.png);
+    position: absolute;
+    right: 150px;
+    bottom: 0px;
+    width: 695px;
+    height: 695px;
+    background-size: cover;
+    transform: scale(-1, 1) rotate(30deg);
+}
+.hero__content::before {
+    content: url("./Vector4.svg");
+    position: absolute;
+    right: 180px;
+    bottom: 10px;
+}
+
+.hero__content {
+    position: relative;
+}
+
+.hero__text-section {
+    margin-bottom: 100px;
+    margin-right: 50px;
+}
+
+.hero__title {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 68px;
+}
+
+.hero__subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 68px;
+}
+
+.text {
+    width: 470px;
+    margin-bottom: 68px;
+}
+
+.price {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 68px;
+}
+
+.btn {
+    display: inline-flex;
+    text-decoration: none;
+    color: #33114B;
+    padding: 7px 33px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background: radial-gradient(100.13% 100% at 50.43% 0%, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.00) 100%), #FFF;
+    box-shadow: 2px 2px 10px 0px rgba(255, 255, 255, 0.30);
+}
+
+.btn--big{
+    padding: 10px 50px;
+}
+.btn:hover {
+    background: #74C5DE;
+}
+
+.btn--big img {
+    margin-left: 15px;
+}
+
+
+
